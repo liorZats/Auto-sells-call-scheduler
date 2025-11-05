@@ -2,7 +2,9 @@
 
 An AI-powered automated outbound calling system that schedules sales meetings with leads. The system uses Twilio for phone calls, Google Cloud for speech-to-text/text-to-speech, and Google Gemini AI for intelligent conversation handling.
 Live demonstrations
+
 https://github.com/user-attachments/assets/46a9d013-561e-4436-bd48-b7c0789f5793
+
 https://github.com/user-attachments/assets/ad3214e7-b45f-4015-9ad8-31465404b25d
 ## 🎯 Overview
 
