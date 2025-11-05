@@ -1,0 +1,17 @@
+{
+    "name": "auto-sells-call-scheduler-monorepo",
+    "private": true,
+    "version": "1.0.0",
+    "workspaces": [
+        "server",
+        "frontend"
+    ],
+    "scripts": {
+        "install:all": "npm install",
+        "bootstrap": "npm install",
+        "build:frontend": "npm --workspace=frontend run build",
+        "start:server": "npm --workspace=server run start",
+        "build": "npm --workspace=frontend run build",
+        "start": "npm --workspace=server run start"
+    }
+}

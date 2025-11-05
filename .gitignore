@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Google Cloud credentials
+gen-lang-client-*.json
+*.json.key
+*-credentials.json
+
+# Test/temporary files
+response.xml
+*.xml
+
+# Build output
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# TTS debug files (if SAVE_TTS_DIR was used)
+tts-output/
