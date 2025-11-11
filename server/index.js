@@ -732,7 +732,7 @@ wss.on('connection', (ws, req) => {
                         sess.acceptedFirstMedia = true;
                         sess.isPlaying = true;
                         console.log('[GREETING] Synthesizing initial greeting for', leadName);
-                        const greeting = `Hi ${leadName}, this is Alex calling from Alti. We help companies automate their outbound calling and booking processes. I'd love to schedule a quick 15-minute call with one of our senior account managers to show you how we can help. Does later this week work for you?`;
+                        const greeting = `Hi ${leadName}, this is Alex calling from Alta. We help companies automate their outbound calling and booking processes. I'd love to schedule a quick 15-minute call with one of our senior account managers to show you how we can help. Does later this week work for you?`;
                         const audioBuffer = await synthesizeSpeech(greeting);
                         await sendMedia(ws, audioBuffer);
                         console.log('[GREETING] Greeting sent');
